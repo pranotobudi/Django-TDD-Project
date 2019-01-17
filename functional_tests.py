@@ -21,7 +21,9 @@ class NewVisitorTest(unittest.TestCase):
 
         # She notices the page title and header mention to-do lists
         self.assertIn('To-Do', self.browser.title)
-        self.fail('Finish the Test!')
+        self.fail('Finish the Test!') 
+        #self.fail will be executed if no error happened
+        
 # She is invited to enter a to-do item straight away
 
 # She types "Buy peacock feathers" into a text box (Edith's hobby
