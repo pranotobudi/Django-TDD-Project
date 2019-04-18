@@ -3,7 +3,8 @@ from django.http import HttpResponse
 from lists.models import Item
 
 def home_page(request):
-    return HttpResponse('<html><title>To-Do lists</title></html>')
+        return render(request, 'home.html')
+
 # def home_page(request):
 #     if request.method == 'POST':
 #         Item.objects.create(text=request.POST['item_text']) 
